@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="google-site-verification" content="1VztQCrdTIxI_mBy2KSfKFXNLDuS5pmAjyii4uOTQ_g" />
+<meta description="Sentry notifies you when your users experience errors in your web and mobile apps." />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://222.197.181.3:8080/img/logo.png" rel="icon" type="image/png"/>
+<link href="/book_lab/_static/getsentry/styles/global.min.css" rel="stylesheet" type="text/css" />
+<title>信软实验室预定</title>
+<script type="text/javascript" src="/book_lab/headfoot/jquery.js"></script>
+<script type="text/javascript" src="/book_lab/headfoot/clientSideInclude.js"></script>
+<script type="text/javascript" src="register.js"></script>
+</head>
+
+<body onLoad="clientSideInclude('includefooter', '/book_lab/headfoot/footer.htm');clientSideInclude('includeheader', '/book_lab/headfoot/header.htm')">
+<span id="includeheader"></span>
+<section id="content">
+  <div class="container register">
+    <div class="row">
+      <div class="span8 primary">
+        <p class="pull-right" style="margin-top: 20px">如果你已经申请了帐号？ <a href="login.htm">请点击这登录</a></p>
+        <h1>创建一个新账户</h1>
+        <form action="register.php" method="post" class="form-horizontal">
+        <fieldset>
+        <input type='hidden' name='csrfmiddlewaretoken' value='O746szH0TDYChBBGXdjNPZgGheygAx7M' />
+        <div class="control-group">
+          <label for="realname">真实姓名</label>
+          <div class="controls">
+            <input id="realname" name="realname" placeholder="Your Real Name" type="text" />
+            <span id="realnameInfo" class="help-block">请填写你的真名</span> </div>
+        </div>
+        <div class="control-group">
+          <label for="username">用户名</label>
+          <div class="controls">
+            <input id="username" maxlength="64" name="username" type="text" />
+            <span id="usernameInfo" class="help-block">必填。不多于30个字符。只能用字母、数字和字符 @/./+/-/_ 。</span> </div>
+        </div>
+        <div class="control-group">
+          <label for="jobnumber">学号/工号</label>
+          <div class="controls">
+            <input id="jobnumber" maxlength="64" name="jobnumber" type="text" />
+            <span id="jobnumberInfo" class="help-block">必填。</span> </div>
+        </div>
+        <div class="control-group">
+          <label for="onecard">一卡通账号</label>
+          <div class="controls">
+            <input id="onecard" maxlength="64" name="onecard" type="text" />
+            <span id="onecardInfo" class="help-block">必填。</span> </div>
+        </div>
+        <div class="control-group">
+          <label for="identity">身份证号</label>
+          <div class="controls">
+            <input id="identity" maxlength="32" name="identity" type="text" />
+            <span id="identityInfo" class="help-block">必填。</span> </div>
+        </div>
+        <div class="control-group">
+        <label for="sex">性别</label>
+        <div class="controls">
+        <form>
+          <select id="sex" name="sex">
+            <option value="male">男</option>
+            <option value="female">女</option>
+          </select>
+        </form>
+      </div>
+    </div>
+    <div class="control-group">
+      <label for="group">用户组</label>
+      <div class="controls">
+        <select id="group" name="idgroup">
+          <option value="student">学生</option>
+          <option value="teacher">老师</option>
+
+        </select>
+        <span class="help-block">必填。</span> </div>
+    </div>
+    <div class="control-group">
+      <label for="email">Email</label>
+      <div class="controls">
+        <input id="email" name="email" type="text" />
+        <span id="emailInfo" class="help-block">必填。</span> </div>
+    </div>
+    <div class="control-group">
+      <label for="tel">Tel</label>
+      <div class="controls">
+        <input id="tel" name="tel" type="text" />
+        <span id="telInfo" class="help-block">必填。</span> </div>
+    </div>
+    <div class="control-group">
+      <label for="password">密码</label>
+      <div class="controls">
+        <input id="password" name="password" type="password" />
+        <span id="passwordInfo" class="help-block">必填。</span>
+        <input id="password" name="confirmpassword" type="password" />
+        <span id="passwordInfo" class="help-block">必填。</span> </div>
+    </div>
+    <button id="createAccount" type="submit" class="btn btn-primary btn-large">创建</button>
+    </form>
+  </div>
+  </div>
+  </div>
+</section>
+<span id="includefooter"></span>
+</body>
+</html>

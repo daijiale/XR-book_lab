@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="google-site-verification" content="1VztQCrdTIxI_mBy2KSfKFXNLDuS5pmAjyii4uOTQ_g" />
+<meta description="Sentry notifies you when your users experience errors in your web and mobile apps." />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://222.197.181.3:8080/img/logo.png" rel="icon" type="image/png"/>
+<link href="/book_lab/_static/getsentry/styles/global.min.css" rel="stylesheet" type="text/css" />
+<title>信软实验室预定</title>
+<script type="text/javascript" src="/book_lab/headfoot/jquery.js"></script>
+<script type="text/javascript" src="/book_lab/headfoot/clientSideInclude.js"></script>
+<script type="text/javascript" src="register.js"></script>
+</head>
+
+
+  <body onLoad="clientSideInclude('includefooter','/book_lab/headfoot/footer.htm');clientSideInclude('includeheader', '/book_lab/headfoot/header.htm')">
+    <span id="includeheader"></span>
+
+    <section id="content">        
+      <div class="container signin">
+        <div class="row">
+          <div class="span12">
+            <p class="pull-right" style="margin-top: 20px">如果你没有帐号？ <a href="register.htm">请注册</a></p>
+            <h1>登录</h1>
+            <form action="login_go.php" method="post" id="login-form" class="form-horizontal">
+              <fieldset id="main-filedset">
+                  <div id="name-div" class="control-group">
+                    <label for="name">用户名</label>
+                    <div class="controls">
+                      <input id="username" maxlength="254" name="username" type="text" />
+                      <span id="nameInfo" class="help-block">请输入你的帐号？</span>
+                      
+                    </div>
+                  </div>
+              
+                  <div class="control-group">
+                    <label for="password">密码</label>
+                    <div class="controls">
+                      <input id="password" maxlength="4096" name="password" type="password" />
+                      <span id="passwordInfo" class="help-block">请输入你的密码？</span>  
+                    </div>
+                  </div>  
+              </fieldset>
+              <fieldset class="form-actions">
+            <input type="submit" name="submit" value="登录"/>
+               
+              </fieldset>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <span id="includefooter"></span>
+
+
+  </body>
+</html>

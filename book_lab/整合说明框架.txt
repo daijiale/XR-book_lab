@@ -1,0 +1,13 @@
+1.book_lab下为本项目所有的文件.
+2.整合主要针对三个模块进行，即manage、mysubscribe、subscribe文件夹下的内容.
+3.整合改动：
+	（1）将manage、mysubscribe文件夹下所有的公用文件提到上层文件夹中做统一的归属。
+	（2）创建headfoot、pub文件夹作为公用文件夹.
+		headfoot文件夹用于头尾模块。
+		pub文件夹用于按钮、SESSION判断文件、sql函数封装
+	（3）对manage文件夹的改动：
+		将其中的网页头部、尾部快文件删除并将原文件夹中的login.htm与register.htm
+		文件引入链接改为公用文件链接
+		将login_go.php中点击进入用户中心链接后缀改为php
+
+		
