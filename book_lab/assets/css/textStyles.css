@@ -1,0 +1,194 @@
+head {
+
+    font-family: BebasNeue;
+    font-weight:normal;  
+    font-size: 30px;
+    color: #ffffff;
+    text-align:left;
+
+}
+
+
+head1 {
+
+    font-family: BebasNeue;
+    font-weight:normal; 
+    font-size: 28px;
+    color: #ffffff;
+    text-align:right;
+
+
+}
+
+
+head2 {
+
+    font-family: BebasNeue;
+    font-weight:normal;
+    font-size: 20px;
+    color: #333333;
+    text-align:right;
+
+
+}
+
+
+head3 {
+
+    font-family: BebasNeue;
+    font-weight:normal;  
+    font-size: 25px;
+    color: #ffffff;
+    text-align:right;
+
+
+}
+
+
+head4 {
+
+    font-family: Aller-R;
+    font-weight:normal;  
+    font-size: 22px;
+    color: #111111;
+    text-align:right;
+
+}
+
+
+head5 {
+
+    font-family: BebasNeue;
+    font-weight:normal;  
+    font-size: 31px;
+    color: #ffffff;
+    text-align:left;
+
+}
+
+
+head6 {
+
+    font-family: Aller-R;
+    font-weight:normal;  
+    font-size: 22px;
+    color: #281400;
+    text-align:left;
+
+}
+
+
+head7 {
+
+    font-family: Aller-R;
+    font-weight:normal;  
+    font-size: 15px;
+    color: #FBFBFC;
+    text-align:left;
+
+}
+
+
+head8 {
+
+    font-family: BebasNeue;
+    font-weight:normal;  
+    font-size: 22px;
+    color: #333333;
+    text-align:left;
+
+}
+
+
+head9 {
+
+    font-family: BebasNeue;
+    font-weight:normal;  
+    font-size: 24px;
+    color: #F2F2F2;
+    text-align:left;
+
+}
+
+
+head10 {
+
+    font-family: BebasNeue;
+    font-weight:normal;  
+    font-size: 24px;
+    color: #ffffff;
+    text-align:left;
+
+}
+
+
+title {
+
+    font-family: BebasNeue;
+    font-weight:normal;  
+    font-size: 38px;
+    color: #ffffff;
+    text-align:left;
+
+}
+
+
+title1 {
+
+    font-family: BebasNeue;
+    font-weight:normal;  
+    font-size: 32px;
+    color: #333333;
+    text-align:left;
+
+}
+
+
+title2 {
+
+    font-family: Aller-R;
+    font-weight:normal;  
+    font-size: 20px;
+    color: #ffffff;
+    text-align:left;
+
+}
+
+
+title3 {
+
+    font-family: Aller-R;
+    font-weight:normal;  
+    font-size: 20px;
+    color: #111111;
+    text-align:left;
+
+}
+
+
+title4 {
+
+    font-family: BebasNeue;
+    font-weight:normal;  
+    font-size: 22px;
+    color: #ffffff;
+    text-align:left;
+
+}
+
+
+a {
+
+    font-family:BebasNeue;
+    font-size:22px; 
+    color:#3681A5; 
+    text-align:left;
+
+}
+
+
+a:hover {
+
+	color:#dfd426; 
+
+}

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>	
+
+
+        <settings
+
+                  Mode="KenBurns"
+       
+                  transitionEffect="Normal"
+                  autoHideButtons="true"
+                 
+                  width = "650"
+                  height = "350"
+                  
+                  globalPosX = "75"
+                  globalPosY = "default"
+ 
+                  cssURL="assets/css/textStyles.css"
+                  itemURL="assets/shadow.png"
+
+                  itemAlpha=".7"
+                  itemPosX="-50"
+                  itemPosY="275"
+
+
+                  backgroundActive="false"
+                  backgroundURL="none"
+                  backgroundType="Normal"
+                  backgroundState = "show"
+                  borderBlurWidth="32"
+                  borderBlurHeight="58"
+                  borderPosY ="13"
+
+
+                  autoplay="true"
+                  autoplayDelay="8"                  
+                  autoplayBarColor="0x333333" 
+                  autoplayBarAlpha=".9" 
+                  autoplayBarPos="bottom"
+
+
+                  thumbListActive="true"
+                  thumbWidth = "46"
+                  thumbHeight = "23"
+                  thumbSpaceNumber = "15"
+                  thumbListPosX="12"
+                  thumbListPosY="13.4"
+
+                  thumbAnimationTime=".4"
+
+                  thumbBgActive = "true"
+                  thumbBgAlpha = "1"
+                  thumbBgColor = "0x000000"
+                  thumbBgSpace = "2"
+
+
+                  navButtonActive="false"
+                  navButtonSize="1"
+                  navButtonSpace="5"
+                  navButtonAlpha=".9"
+                  navButtonPosX="0"
+                  navButtonPosY="363.5"
+
+
+                  preloaderSize="1"
+                  preloaderAlpha="1"
+                  preloaderColor="0x333333"
+
+
+                  buttonPanelAlpha = ".7"
+                  buttonPanelShapeColor="default"
+                  buttonPanelBgColor="default"
+
+
+                  contextMenuName_a="Design by ZSumi"
+                  contextMenuEnabled_a="true"
+                  contextMenuUrl_a="http://activeden.net/user/ZSumi"
+
+                  contextMenuName_b="Version 1.5"
+                  contextMenuEnabled_b="false"
+                  contextMenuUrl_b="none"
+
+
+                  lettersSpace="11"
+                  textYPosCorrection="2.18"
+
+
+        />
+
+
+
+
+        <main> 
+
+
+             <item scrThumb='assets/media/demo2/b1.jpg' scrImage='assets/media/demo2/1.jpg' link='' target='_blank'>
+                 <kenBurnsMode duration='9' startPos='6' endPos='3' startScale='110' endScale='100'/>
+             </item>
+
+             <item scrThumb='assets/media/demo2/b3.jpg' scrImage='assets/media/demo2/3.jpg' link='' target='_blank'>
+	         <kenBurnsMode duration='8' startPos='1' endPos='1' startScale='130' endScale='100'/> 
+             </item>
+
+             <item scrThumb='assets/media/demo2/b2.jpg' scrImage='assets/media/demo2/2.jpg' link='' target='_blank'>
+                 <kenBurnsMode duration='9' startPos='3' endPos='6' startScale='110' endScale='100'/>
+             </item>
+
+             <item scrThumb='assets/media/demo2/b4.jpg' scrImage='assets/media/demo2/4.jpg' link='' target='_blank'>
+                 <kenBurnsMode duration='6' startPos='4' endPos='7' startScale='110' endScale='100'/>
+             </item>
+
+
+      </main>
+
+</xml>

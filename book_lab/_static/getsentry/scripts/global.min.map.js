@@ -1,0 +1,1 @@
+{"version":3,"file":"/srv/www/getsentry.com/releases/bd4c8ea9316b5c994933a49c96a0b0e2808142d6/getsentry/static/getsentry/scripts/global.min.js","sources":["getsentry/scripts/global.js"],"names":["$","click","toggleClass"],"mappings":"AAAAA,EAAE,WACDA,EAAE,eAAeC,MAAM,WACtBD,EAAE,OAAOE,YAAY","sourceRoot":"../../"}

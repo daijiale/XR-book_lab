@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+
+        <settings
+
+                  Mode="Banner"
+
+                  transitionEffect="Normal"
+                  autoHideButtons="true"
+
+                  width="800"
+                  height="350"
+
+                  globalPosX = "default"
+                  globalPosY = "default"
+
+                  cssURL="assets/css/textStyles.css"
+                  itemURL="null"
+
+                  itemAlpha=".7"
+                  itemPosX="-50"
+                  itemPosY="275"
+
+
+                  backgroundActive="true"
+                  backgroundURL="assets/background.jpg"
+                  backgroundType="BorderBlur"
+                  backgroundState = "show"
+                  borderBlurWidth="32"
+                  borderBlurHeight="58"
+                  borderPosY ="13"
+
+                  autoplay="true"
+                  autoplayDelay="8"                  
+                  autoplayBarColor="0x333333" 
+                  autoplayBarAlpha=".9" 
+                  autoplayBarPos="bottom"
+
+
+                  thumbListActive="false"
+                  thumbWidth ="46"
+                  thumbHeight ="23"
+                  thumbSpaceNumber="15"
+                  thumbListPosX="-0.4"
+                  thumbListPosY="1.7"
+
+                  thumbAnimationTime=".4"
+
+                  thumbBgActive="true"
+                  thumbBgAlpha="1"
+                  thumbBgColor="0x000000"
+                  thumbBgSpace="2"
+
+
+                  navButtonActive="true"
+                  navButtonSize="1"
+                  navButtonSpace="5"
+                  navButtonAlpha=".9"
+                  navButtonPosX="0"
+                  navButtonPosY="363.5"
+
+
+                  preloaderSize="1"
+                  preloaderAlpha="1"
+                  preloaderColor="0x757575"
+
+
+                  buttonPanelAlpha=".7"
+                  buttonPanelShapeColor="default"
+                  buttonPanelBgColor="default"
+
+                  contextMenuName_a="Design by ZSumi"
+                  contextMenuEnabled_a="true"
+                  contextMenuUrl_a="http://activeden.net/user/ZSumi"
+
+                  contextMenuName_b="Version 1.5"
+                  contextMenuEnabled_b="false"
+                  contextMenuUrl_b="none"
+
+                  lettersSpace="4.5"
+                  textYPosCorrection="2.18"
+
+
+        />
+
+
+
+
+
+        <main> 
+
+
+
+
+             <item scrThumb='assets/media/demo1/b6.jpg' scrImage='assets/media/demo1/6.jpg' autoPlayDelay='9' link='' target='_blank'>
+
+                   <transition mode="preset" value='effect22'/>
+
+                               <captionText>
+
+                            <text type='Letters-Fade' px='420' py='175' time='1.5' delay='0' shadow="true" lettersColor='0xF5F5F5' lettersSize='28' from='left'><![CDATA[New Update - Version 2.0</head>]]>
+                                 <background alpha='1' color='0x0f4573' space='19||3'/>
+                              </text>
+                            <text type='Letters-Fade' px='420' py='220' time='1.5' delay='.9' lettersColor='0xF5F5F5' lettersSize='22' from='right'><![CDATA[A lot of new features]]>
+                                 <background alpha='1' color='0x1B262E' space='19'/>
+                              </text>
+                    </captionText>
+
+             </item>
+
+
+
+
+
+             <item scrThumb='assets/media/demo1/b7.jpg' scrImage='assets/media/demo1/7.jpg' autoPlayDelay="10" link='' target='_blank'>
+			 
+                   <transition mode="preset" value='effect12'>
+                            <custom   effect='4' time='1' number='12' delay='0.1' ease='Back.easeOut'/> 
+                         </transition>
+
+                               <captionText>
+
+                            <text type='FlyIn' px='515' py='85' time='1' delay='0' from='right'><![CDATA[<head4>HTML /CSS formatted text</head4>]]>
+                                 <background alpha='1' color='0xffffff' space='16||16' shadow="true"/>
+                              </text>
+                            <text type='FlyIn' px='460' py='122' time='1' delay='.5' from='right'><![CDATA[<title2>ADD AS MANY TEXT LINES</title2>]]>
+                                 <background alpha='1' color='0x000000' space='14||17' shadow="true"/>
+                              </text>
+                            <text type='FlyIn' px='615' py='156' time='1' delay='.8' from='bottom'><![CDATA[<title3>YOU WANT<title3>]]>
+                                 <background alpha='1' color='0xffffff' space='16||17' shadow="true"/>
+                              </text>
+                            <text type='Letters-Zoom' px='524' py='39' time='.5' delay='1' lettersColor='0xFFFFFF' lettersSize='30' from='right'><![CDATA[CREATE YOUR OWN]]>
+                              </text>
+                            <text type='MagnifyIn' px='691' py='38' time='1' delay='2'><![CDATA[<head5>STYLE</head5>]]>
+                                 <onComplete type='MagnifyOut' time="1" delay='1'/>
+                              </text>
+                            <text type='MagnifyIn' px='691' py='38' time='1' delay='5'><![CDATA[<head5>DESIGN</head5>]]>
+                              </text>
+
+                    </captionText>
+
+             </item>
+
+
+
+
+
+
+             <item scrThumb='assets/media/demo1/b2.jpg' scrImage='assets/media/demo1/2.jpg' autoPlayDelay="27" link='' target='_blank'>
+
+                   <transition mode="preset" value='effect23'>   
+                            <custom time='1.2' number='11' delay='0' ease='Cubic.easeInOut'/>   
+                         </transition>
+
+                               <captionText>
+
+                            <text type='scaleUp' px='20' py='70' time='1' delay='0' from='top'><![CDATA[<head6>Use 25 Different Animation on captions and Letters</head6>]]>
+                                 <background alpha='1' color='0xffffff' space='16||14' shadow="true"/>
+                                 <onComplete type='ShortFlyOut' time="1" delay='1' to="bottom"/>   
+                              </text>
+
+                            <text type='ShortFlyIn' px='20' py='120' time='.8' delay='.5' from='right'><![CDATA[<head7>Option to set enter/exit direction for each caption<head7>]]>
+                                 <background alpha='1' color='0x3A3F3E' space='16||14' shadow="true"/>
+                                 <onComplete type='ShortFlyOut' time="1" delay='0.5' to='bottom'/>  
+                              </text>
+
+                            <text type='FlyIn' px='0' py='80' time='.8' delay='2.4' from='left' shadow='true'><![CDATA[<head7>SHOW TIME</head7>]]>
+                                 <background alpha='1' color='0x3A3F3E' space='16||14' shadow="true"/>
+                                 <onComplete type='FlyOut' time="1" delay='16' to='left'/>
+                              </text>
+
+                            <text type='MagnifyIn' px='170' py='140' time='1' delay='3' shadow='true'><![CDATA[<title>Magnify In/Out</title>]]>
+                                 <onComplete type='MagnifyOut' time="1" delay='.5'/>
+                              </text>
+
+                            <text type='FlyIn' px='200' py='145' time='1' delay='6' from='left' shadow='true'><![CDATA[<title>Fly In/Out</title>]]>
+                                 <onComplete type='FlyOut' time="1" delay='.5' to="bottom"/>
+                              </text>
+
+                            <text type='RotationIn' px='180' py='145' time='1' delay='8.5'><![CDATA[<title>Rotation In/Out</title>]]>
+                                 <onComplete type='RotationOut' time="1" delay='.5'/>
+                              </text>
+
+                            <text type='ShortFlyIn' px='180' py='145' time='1' delay='11.5' from='top'><![CDATA[<title>Short Fly In/Out</title>]]>
+                                 <onComplete type='ShortFlyOut' time="1" delay='.5' to='right'/>
+                              </text>
+
+                            <text type='BlurIn' px='200' py='145' time='1' delay='14.4' shadow='true'><![CDATA[<title>Blur In/Out</title>]]>
+                                 <onComplete type='BlurOut' time="1" delay='1'/>
+                              </text>
+
+                            <text type='FadeIn' px='200' py='145' time='1' delay='17'><![CDATA[<title>Fade In/Out</title>]]>
+                                 <onComplete type='FadeOut' time="1" delay='.5'/>
+                              </text>
+
+                            <text type='ZoomIn' px='265' py='175' time='1' delay='19.3'><![CDATA[<title>Zoom In/Out</title>]]>
+                                 <onComplete type='ZoomOut' time="1" delay='.5'/>
+                              </text>
+
+                            <text type='scaleUp' px='20' py='70' time='1' delay='21.8'><![CDATA[<head6>Use 25 Different Animation on captions and Letters</head6>]]>
+                                 <background alpha='1' color='0xffffff' space='16||14' shadow="true"/>
+                              </text>
+
+                            <text type='ShortFlyIn' px='20' py='120' time='.8' delay='22.8' from='right'><![CDATA[<head7>Option to set enter/exit direction for each caption</head7>]]>
+                                 <background alpha='1' color='0x3A3F3E' space='16||14' shadow="true"/>
+                              </text>
+
+                    </captionText>
+
+             </item>
+
+
+
+
+
+             <item scrThumb='assets/media/demo1/b5.jpg' scrImage='assets/media/demo1/5.jpg' autoPlayDelay='8' link='' target='_blank'>
+
+                   <transition mode="preset" value='effect14'/>
+
+                               <captionText>
+
+                            <text type='FlyIn-bgFirst' px='500' py='178' time='.8' delay='0' from='right'><![CDATA[<head1>No Flash knowledge required</head1>]]>
+                                 <background alpha='1' color='0x3A3F3E' space='16||4' shadow='true'/>      
+                              </text>
+                            <text type='ShortFlyIn' px='534' py='222' time='1.2' delay='1' from='right'><![CDATA[<head2>Fully XML driven</head2>]]>
+                                 <background alpha='1' color='0xffffff' space='14' />
+                              </text>
+                            <text type='ShortFlyIn' px='600' py='244' time='1' delay='1.2' from='left'><![CDATA[<head2>Very customizable</head2>]]>
+                                 <background alpha='1' color='0xffffff' space='14' />
+                              </text>
+
+
+                    </captionText>
+
+             </item>
+
+
+
+
+
+             <item scrThumb='assets/media/demo1/b3.jpg' scrImage='assets/media/demo1/3.jpg' autoPlayDelay="16" link='' target='_blank'>
+			 
+                   <transition mode="preset" value='effect5'/>
+			   
+                               <captionText>
+
+                            <text type='Letters-Fly' px='413' py='50' time='1' delay='0' from='top' lettersColor='0xffffff' lettersSize='35' shadow='true'><![CDATA[Awesome]]>
+                                 <blur activate='true'/> 
+                              </text>
+                            <text type='Letters-Magnify' px='413' py='95' time='1' delay='.9' from='right' lettersColor='0xffffff' lettersSize='28' shadow='true'><![CDATA[Transition effects]]>
+                                 <onComplete type='ShortFlyOut' time="1" delay='2' to="bottom"/>
+                              </text>
+                            <text type='Letters-WaveStr' px='413' py='130' time='1.2' delay='3' from='top' lettersColor='0xffffff' lettersSize='28' shadow='true'><![CDATA[Caption and Letters animations]]>
+                              </text>
+                            <text type='Letters-Fly' px='413' py='95' time='2' delay='4.5' from='left' lettersColor='0xffffff' lettersSize='28' shadow='true'><![CDATA[Transition]]>
+                                <blur activate='true'/> 
+                              </text>
+                            <text type='Letters-Fly' px='513' py='95' time='2' delay='4.5' from='right' lettersColor='0xffffff' lettersSize='28' shadow='true'><![CDATA[effects]]>
+                                <blur activate='true'/> 
+                              </text>
+                            <text type='Letters-Zoom' px='413' py='170' time='.5' delay='6.5' from='top' lettersColor='0x333333' lettersSize='22'><![CDATA[Control every part of banner rotator via XML]]>
+                              </text>
+                            <text type='MagnifyIn' px='403' py='226' time='1.5' delay='8'><![CDATA[<title1>Profession XML Banner Rotator</title1>]]>
+                                 <background alpha='1' color='0xCCCCCC' space='16||13' shadow="true"/>
+                              </text>
+                 
+                    </captionText>
+
+
+             </item>
+
+
+
+
+             <item scrThumb='assets/media/demo1/b1.jpg' scrImage='assets/media/demo1/1.jpg' autoPlayDelay="7" link='' target='_blank'>
+			 
+                   <transition mode="preset" value='effect13'>
+                            <custom time='1' number='7' delay='0.15' ease='Back.easeOut'/> 
+                         </transition>
+			 
+                               <captionText>
+
+                            <text type='RotationIn' px='55' py='148' time='1' delay='.1'><![CDATA[<head8>Supports Slideshow Mode</head8>]]> 
+                                 <background alpha='1' color='0xffffff' space='14||12' shadow="true"/>
+                              </text>
+                            <text type='RotationIn' px='10' py='108' time='1' delay='0'><![CDATA[<head9>Supports Ken Burns Mode</head9>]]>
+                                 <background alpha='1' color='0x111111' space='16||15' shadow="true"/>
+                              </text>
+                            <text type='Letters-Bounce' px='35' py='60' time='2' delay='1.2' lettersColor='0x333333' lettersSize='22'><![CDATA[Meet Different service demands]]>
+                                 <background alpha='1' color='0xffffff' space='10||7' shadow="true"/>
+                              </text>
+
+                    </captionText>
+
+             </item>
+
+
+
+
+
+             <item scrThumb='assets/media/demo1/b4.jpg' scrImage='assets/media/demo1/4.jpg' autoPlayDelay="9" link='' target='_blank'>
+
+                   <transition mode="preset" value='effect24'/> 
+			 
+                               <captionText>
+
+                            <text type='FlyIn' px='0' py='0' time='1' delay='0' from='top'><![CDATA[<title4>Supports keyboard left and right arrow keys for navigation,  space to play/pause.      <a href="http://www.google.com" target="_blank"><u>Learn More</u></a></title4>]]>
+                                 <background alpha='.5' color='0x000000' size='Full' space='20||18'/>
+                              </text>
+
+                            <text type='FadeIn' px='45' py='90' time='1.3' delay='.5'><![CDATA[<title4>Html/CSS formatted text.
+<a href="http://www.google.com" target="_blank">URL LINK</a>, <font color="#00FF00">c</font><font color="#FF9900">o</font><font color="#00FFFF">l</font><font color="#FFFF33">o</font><font color="#FF0000">r</font>, <u>underline</u>,
+<font size='25'>size</font>,  font-family,  italic,
+Bold, and more.</title4>]]>
+                                 <background alpha='.7' color='0x000000' space='29||23'/>
+                              </text>
+
+                    </captionText>
+
+             </item>
+
+      </main>
+
+</xml>

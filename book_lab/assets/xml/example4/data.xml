@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+
+        <settings
+
+                  Mode="Banner"
+       
+                  transitionEffect="Normal"
+                  autoHideButtons="true"
+                  
+                  width = "400"
+                  height = "550"
+                  
+                  globalPosX = "200"
+                  globalPosY = "-100"
+
+                  cssURL="assets/css/textStyles.css"
+                  itemURL="assets/shadow3.png"
+
+                  itemAlpha=".7"
+                  itemPosX="170"
+                  itemPosY="415"
+
+
+                  backgroundActive="false"
+                  backgroundURL="none"
+                  backgroundType="Normal"
+                  backgroundState = "show"
+                  borderBlurWidth="32"
+                  borderBlurHeight="58"
+                  borderPosY ="13"
+
+
+                  autoplay="true"
+                  autoplayDelay="8"                  
+                  autoplayBarColor="0x333333" 
+                  autoplayBarAlpha=".9" 
+                  autoplayBarPos="top"
+
+
+                  thumbListActive="true"
+                  thumbWidth = "46"
+                  thumbHeight = "23"
+                  thumbSpaceNumber = "15"
+                  thumbListPosX="-3.45"
+                  thumbListPosY="2.1"
+
+                  thumbAnimationTime=".4"
+
+                  thumbBgActive = "true"
+                  thumbBgAlpha = "1"
+                  thumbBgColor = "0x000000"
+                  thumbBgSpace = "2"
+
+
+                  navButtonActive="false"
+                  navButtonSize="1"
+                  navButtonSpace="5"
+                  navButtonAlpha=".9"
+                  navButtonPosX="0"
+                  navButtonPosY="363.5"
+
+
+                  preloaderSize="1"
+                  preloaderAlpha="1"
+                  preloaderColor="0x757575"
+
+
+                  buttonPanelAlpha = ".7"
+                  buttonPanelShapeColor="default"
+                  buttonPanelBgColor="default"
+
+
+                  contextMenuName_a="Design by ZSumi"
+                  contextMenuEnabled_a="true"
+                  contextMenuUrl_a="http://activeden.net/user/ZSumi"
+
+                  contextMenuName_b="Version 1.5"
+                  contextMenuEnabled_b="false"
+                  contextMenuUrl_b="none"
+
+
+                  lettersSpace="4.5"
+                  textYPosCorrection="2.18"
+
+
+        />
+
+
+
+
+
+        <main> 
+
+
+
+
+             <item scrThumb='assets/media/demo1/b3.jpg' scrImage='assets/media/demo3/3.jpg' link='' target='_blank'>
+			 
+                   <transition mode="custom" value='effect20'>
+                            <custom  time='1.2' number='10' delay='0.05' ease='Cubic.easeOut'/>
+                         </transition>
+			   
+                               <captionText>
+
+                            <text type='RotationIn' px='0' py='378' time='1' delay='.1'><![CDATA[<head8>Supports Slideshow Mode</head8>]]> 
+                                 <background alpha='1' color='0xffffff' space='9' shadow="true"/>
+                              </text>
+                            <text type='RotationIn' px='0' py='338' time='1' delay='0'><![CDATA[<head9>Supports Ken Burns Mode</head9>]]>
+                                 <background alpha='1' color='0x111111' space='11' shadow="true"/>
+                              </text>
+                 
+                    </captionText>
+
+             </item>
+
+
+
+
+             <item scrThumb='assets/media/demo1/b1.jpg' scrImage='assets/media/demo3/2.jpg' link='' target='_blank'>
+
+                   <transition mode="custom" value='effect19'>   
+                            <custom time='1.2' number='10' delay='0.05' ease='Cubic.easeOut'/>  
+                         </transition>
+
+                               <captionText>
+
+                            <text type='Letters-Wave' px='0' py='378' time='2' delay='.1' from='right' lettersColor='0x333333' lettersSize='25'><![CDATA[You can set AutoPlay time for each slide]]> 
+                                 <background alpha='1' color='0xffffff' space='9' shadow="true"/>
+                              </text>
+                    </captionText>
+
+             </item>
+
+
+
+
+             <item scrThumb='assets/media/demo1/b5.jpg' scrImage='assets/media/demo3/1.jpg' link='' target='_blank'>
+
+                   <transition mode="custom" value='effect8'>
+                            <custom time='1.5' number='10' delay='0.05' ease='Cubic.easeOut'/>   
+                         </transition>
+
+                               <captionText>
+
+                            <text type='ZoomIn' px='195' py='340' time='1' delay='.5'><![CDATA[<a href="http://activeden.net/user/ZSumi" target="_blank"><head8>Thank  you</head8></a>]]>
+                                 <background alpha='1' color='0xF8F8FF' space='10' shadow="true"/>
+                              </text>
+
+                    </captionText>
+
+             </item>
+
+
+
+
+             <item scrThumb='assets/media/demo1/b6.jpg' scrImage='assets/media/demo3/4.jpg' link='' target='_blank'>
+			 
+                   <transition mode="custom" value='effect21'>
+                            <custom  time='1.2' number='10' delay='0.05' ease='Cubic.easeOut'/>
+                         </transition>
+			   
+                               <captionText>
+                            <text type='ZoomIn' px='240' py='360' time='.8' delay='0'><![CDATA[<head9>A tons of</head9>]]>
+                                 <background alpha='1' color='0x111111' space='11' shadow="true"/>
+                              </text>
+                            <text type='ZoomIn' px='240' py='420' time='.8' delay='.3'><![CDATA[<head9>beautiful effects</head9>]]>
+                                 <background alpha='1' color='0x111111' space='11' shadow="true"/>
+                              </text>
+
+                    </captionText>
+
+             </item>
+
+
+
+
+        </main> 
+
+</xml>
